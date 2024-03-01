@@ -9,11 +9,14 @@ const Container = styled.div`
 `;
 const ImageContainer = styled.div`
   width: 100vw;
-  height: 490px;
+  height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin-bottom: 64px;
+  @media screen and (min-width: 768px) {
+    height: 490px;
+  }
 `;
 
 const Mapa = styled.iframe`
@@ -56,11 +59,17 @@ const IconsContainer = styled.div`
 
 const ClubeDoExercito = () => {
   const fotos = [
-    "/smu/estrutura/estrutura_smu.jpeg",
     "/smu/estrutura/estrutura_smu1.jpeg",
+    "/smu/estrutura/estrutura_smu.jpeg",
     "/smu/estrutura/estrutura_smu2.jpeg",
-    "/smu/estrutura/estrutura_smu3.jpeg",
     "/smu/estrutura/estrutura_smu4.jpeg",
+    "/smu/estrutura/estrutura_smu5.jpeg",
+    "/smu/estrutura/estrutura_smu6.jpeg",
+    "/smu/estrutura/estrutura_smu7.jpeg",
+    "/smu/estrutura/estrutura_smu8.jpeg",
+    "/smu/estrutura/estrutura_smu9.jpeg",
+    "/smu/estrutura/estrutura_smu10.jpeg",
+    "/smu/estrutura/estrutura_smu11.jpeg",
   ];
   return (
     <Container>
