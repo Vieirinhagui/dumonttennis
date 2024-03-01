@@ -23,6 +23,7 @@ const Unidades = () => {
         label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO"
         treinamento={false}
         beach={false}
+        individual={true}
         unidade="smu"
       />
       <CardUnidades
@@ -31,6 +32,7 @@ const Unidades = () => {
         image="/iate/iate.jpg"
         treinamento={true}
         beach={false}
+        individual={true}
         unidade="iate"
       />
       <CardUnidades
@@ -39,6 +41,7 @@ const Unidades = () => {
         image="/assefaz/assefaz.jpg"
         treinamento={false}
         beach={true}
+        individual={true}
         unidade="assefaz"
       />
       <CardUnidades
@@ -47,6 +50,7 @@ const Unidades = () => {
         image="/lagosul/lagosul.jpg"
         treinamento={false}
         beach={false}
+        individual={false}
         unidade="lagosul"
       />
     </Cards>

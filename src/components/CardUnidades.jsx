@@ -104,10 +104,10 @@ const CardUnidades = ({
   contato,
   unidade,
   treinamento,
+  individual,
   beach,
   image,
 }) => {
-  // const CardUnidades = ({ image }) => {
   return (
     <CardContainer>
       <ImageContainer style={{ backgroundImage: `url(${image})` }} />
@@ -123,7 +123,7 @@ const CardUnidades = ({
               {treinamento && <li>-Treinamento Competitivo</li>}
               <li>-Aulas em grupo</li>
               <li>-Dumont Kids</li>
-              <li>-Aulas Individuais</li>
+              {individual && <li>-Aulas Individuais</li>}
               {beach && <li>-Beach Tênnis</li>}
             </ul>
           </div>
