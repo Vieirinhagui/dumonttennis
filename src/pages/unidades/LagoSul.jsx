@@ -86,16 +86,12 @@ const LagoSul = () => {
           <p>Restaurante, aberto das 8h às 18h.</p>
         </IconsContainer>
         <IconsContainer>
-          <img src="/icons/rapida.svg" alt="" />
-          <p>1 Quadra Rápida</p>
-        </IconsContainer>
-        <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>1 Quadra Saibro</p>
+          <p>2 Quadra Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />
-          <p>1 Paredão</p>
+          <p>2 Quadra de Beach Tênnis</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>

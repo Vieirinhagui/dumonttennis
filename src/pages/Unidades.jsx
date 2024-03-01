@@ -18,15 +18,6 @@ const Unidades = () => {
   return (
     <Cards>
       <CardUnidades
-        contato="(61) 98465-0881"
-        image="/smu/unidade_smu.jpeg"
-        label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO"
-        treinamento={false}
-        beach={false}
-        individual={true}
-        unidade="smu"
-      />
-      <CardUnidades
         label="IATE CLUBE DE BRASÍLIA"
         contato="(61) 98127-0990"
         image="/iate/iate.jpg"
@@ -34,6 +25,15 @@ const Unidades = () => {
         beach={false}
         individual={true}
         unidade="iate"
+      />
+      <CardUnidades
+        contato="(61) 98465-0881"
+        image="/smu/unidade_smu.jpeg"
+        label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO"
+        treinamento={false}
+        beach={false}
+        individual={true}
+        unidade="smu"
       />
       <CardUnidades
         label="CLUBE OLÍMPICO ASSEFAZ"
@@ -46,10 +46,10 @@ const Unidades = () => {
       />
       <CardUnidades
         label="LAGO SUL"
-        contato="(61) 99258-3009"
+        contato="(61) 99452-5535"
         image="/lagosul/lagosul.jpg"
         treinamento={false}
-        beach={false}
+        beach={true}
         individual={false}
         unidade="lagosul"
       />

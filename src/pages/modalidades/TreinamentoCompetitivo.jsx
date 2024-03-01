@@ -31,7 +31,7 @@ const TreinamentoCompetitivo = () => {
           conta com:Preparador Físico;Parcerias com psicólogo, nutricionista e
           fisioterapeuta;Planejamento de calendário para torneios;Acompanhamento
           em torneios;Quadras de saibro, piso rápido e quadras cobertas. Os
-          treinamentos acontecem de segunda à sexta das 14h30 às 18h
+          treinamentos acontecem de segunda à sexta das 14h00 às 18h
         </p>
       </div>
       <div>
