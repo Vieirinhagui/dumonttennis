@@ -178,15 +178,6 @@ const Home = () => {
             }}
             className="swiper-container"
           >
-            <SwiperSlide style={{ width: "300px", marginRight: "0" }}>
-              <ImageContainer>
-                <CardHomeUnidades
-                  image="/smu/smu.jpg"
-                  label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO"
-                  unidade="smu"
-                />
-              </ImageContainer>
-            </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades
@@ -196,6 +187,16 @@ const Home = () => {
                 />
               </ImageContainer>
             </SwiperSlide>
+            <SwiperSlide style={{ width: "300px", marginRight: "0" }}>
+              <ImageContainer>
+                <CardHomeUnidades
+                  image="/smu/smu.jpg"
+                  label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO"
+                  unidade="smu"
+                />
+              </ImageContainer>
+            </SwiperSlide>
+
             <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades
@@ -208,7 +209,7 @@ const Home = () => {
             <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades
-                  image="/lagosul/lagosul.jpg"
+                  image="/lagosul/estrutura/estrutura_lago4.jpeg"
                   label="LAGO SUL"
                   unidade="lagosul"
                 />

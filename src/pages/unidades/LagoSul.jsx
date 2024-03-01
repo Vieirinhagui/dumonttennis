@@ -55,16 +55,20 @@ const IconsContainer = styled.div`
 `;
 const LagoSul = () => {
   const fotos = [
-    "/smu/estrutura/estrutura_smu.jpeg",
-    "/smu/estrutura/estrutura_smu1.jpeg",
-    "/smu/estrutura/estrutura_smu2.jpeg",
-    "/smu/estrutura/estrutura_smu3.jpeg",
-    "/smu/estrutura/estrutura_smu4.jpeg",
+    "/lagosul/estrutura/estrutura_lago2.jpeg",
+    "/lagosul/estrutura/estrutura_lago3.jpeg",
+    "/lagosul/estrutura/estrutura_lago1.jpeg",
+    "/lagosul/estrutura/estrutura_lago4.jpeg",
+    "/lagosul/estrutura/estrutura_lago5.jpeg",
+    "/lagosul/estrutura/estrutura_lago6.jpeg",
+    "/lagosul/estrutura/estrutura_lago.jpeg",
+    "/lagosul/estrutura/estrutura_lago7.jpeg",
+    "/lagosul/estrutura/estrutura_lago8.jpeg",
   ];
   return (
     <Container>
       <ImageContainer
-        style={{ backgroundImage: `url("/lagosul/lagosul.jpg")` }}
+        style={{ backgroundImage: `url("/lagosul/estrutura/estrutura_lago4.jpeg")` }}
       />
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
