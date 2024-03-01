@@ -59,10 +59,10 @@ const IconsContainer = styled.div`
 
 const ClubeDoExercito = () => {
   const fotos = [
+    "/smu/estrutura/estrutura_smu4.jpeg",
+    "/smu/estrutura/estrutura_smu2.jpeg",
     "/smu/estrutura/estrutura_smu1.jpeg",
     "/smu/estrutura/estrutura_smu.jpeg",
-    "/smu/estrutura/estrutura_smu2.jpeg",
-    "/smu/estrutura/estrutura_smu4.jpeg",
     "/smu/estrutura/estrutura_smu5.jpeg",
     "/smu/estrutura/estrutura_smu6.jpeg",
     "/smu/estrutura/estrutura_smu7.jpeg",
