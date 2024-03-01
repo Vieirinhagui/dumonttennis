@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import CarrosselEstrutura from "../../components/CarrosselEstrutura";
-import { Car, ShowerHead, UtensilsCrossed, Wifi } from "lucide-react";
+import { Car, ShowerHead, Store, UtensilsCrossed, Wifi } from "lucide-react";
 
 const Container = styled.div`
   display: flex;
@@ -86,12 +86,20 @@ const Assefaz = () => {
           <p>Restaurante, aberto das 8h às 18h.</p>
         </IconsContainer>
         <IconsContainer>
+          <Store size={40} />
+          <p>Lojinha com itens básicos.</p>
+        </IconsContainer>
+        <IconsContainer>
+          <img src="/icons/raquete_tenis.svg" alt="" />
+          <p>Serviço de encordamento.</p>
+        </IconsContainer>
+        <IconsContainer>
           <img src="/icons/rapida.svg" alt="" />
-          <p>1 Quadra Rápida</p>
+          <p>2 Quadras de Beach Tênnis</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>1 Quadra Saibro</p>
+          <p>4 Quadras de Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />
