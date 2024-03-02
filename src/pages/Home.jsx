@@ -253,14 +253,14 @@ const Home = () => {
       <SobreContainer>
         <img src="/logos/doit_amarela.png" alt="" />
         <TextSobre>
-          A Dumont Tênnis é uma escola renomada em Brasília, com mais de 25 anos
-          de experiência em treinamento competitivo. Unidades no oferecemos a
-          oportunidade de conhecer, aprender e se divertir com Tênis. Nossa
-          metodologia de ensino é baseada na co-descoberta, onde os alunos
-          aprendem gradualmente através de aulas dinâmicas e interativas com
-          nossos professores capacitados. Queremos proporcionar uma experiência
-          esportiva de qualidade, promovendo o desenvolvimento pessoal e social
-          dos nossos alunos dentro e fora das quadras.
+          A Dumont Tênis é uma escola que possui tradição em treinamento
+          competitivo. Com mais de 30 anos em Brasília e sede no Iate Clube de
+          Brasília, desenvolveu um sistema de aprendizado que combina qualidade
+          de ensino, prática e teoria, sendo essa sua marca registrada. Agora,
+          com unidades também no Clube do Exército no Setor Militar Urbano, no
+          Clube Olímpico Assefaz e na QI 23 do Lago Sul, a Dumont Tênis oferece
+          a todos os interessados a oportunidade de conhecer, aprender, jogar e
+          se divertir com esse esporte tão saudável.
         </TextSobre>
       </SobreContainer>
     </HomeContainer>

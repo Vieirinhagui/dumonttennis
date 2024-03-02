@@ -23,18 +23,24 @@ const DumontKids = () => {
       <div>
         <Title>DUMONT KIDS</Title>
         <p>
-          A Dumont Kids oferece uma abordagem única para iniciar as crianças no
-          tênis. Com aulas divertidas e adaptadas, desenvolvemos habilidades
-          físicas, mentais e emocionais, ensinando os fundamentos do esporte e
-          promovendo a coordenação, concentração e trabalho em equipe.
+          A Dumont Kids oferece uma abordagem única para introduzir as crianças
+          ao mundo do tênis, com uma metodologia própria e utilização de
+          materiais adequados e adaptados, para tornar o aprendizado uma
+          experiência divertida e cativante. As aulas são planejadas para
+          estimular o desenvolvimento físico, mental e emocional dos pequenos
+          tenistas, incluindo jogos e atividades lúdicas para ensinar os
+          fundamentos do esporte, ao mesmo tempo em que desenvolvem habilidades
+          essenciais como coordenação motora, concentração e trabalho em equipe.
           <br />
           <br />
-          Com instrutores experientes, enfatizam a progressão gradual e valores
-          como disciplina, respeito e determinação. Preparamos as crianças não
-          apenas para o tênis, mas também para os desafios da vida. Junte-se a
-          nós para uma experiência enriquecedora e inspiradora, que constrói um
-          futuro promissor dentro e fora das quadras de tênis. Venha fazer parte
-          desta jornada!
+          Com uma ênfase na progressão gradual e no apoio de instrutores
+          experientes, a Dumont Kids promove valores como disciplina, respeito e
+          determinação, preparando as crianças não apenas para se destacarem no
+          tênis, mas também para enfrentarem desafios em todas as áreas de suas
+          vidas. Essa experiência enriquecedora e inspiradora oferece uma
+          preparação sólida para um futuro promissor dentro e fora das quadras
+          de tênis, convidando os mais jovens talentos a se juntarem a essa
+          experiência inesquecível.
         </p>
       </div>
     </Container>
