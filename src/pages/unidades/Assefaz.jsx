@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import CarrosselEstrutura from "../../components/CarrosselEstrutura";
-import { Car, ShowerHead, UtensilsCrossed, Wifi } from "lucide-react";
+import {
+  Car,
+  ShowerHead,
+  Store,
+  UtensilsCrossed,
+  UtensilsCrossedIcon,
+  Wifi,
+} from "lucide-react";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -60,11 +67,11 @@ const IconsContainer = styled.div`
 
 const Assefaz = () => {
   const fotos = [
-    "/smu/estrutura/estrutura_smu.jpeg",
-    "/smu/estrutura/estrutura_smu1.jpeg",
-    "/smu/estrutura/estrutura_smu2.jpeg",
-    "/smu/estrutura/estrutura_smu3.jpeg",
-    "/smu/estrutura/estrutura_smu4.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz1.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz2.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz3.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz4.jpeg",
   ];
   return (
     <Container>
@@ -87,7 +94,7 @@ const Assefaz = () => {
           <p>Estacionamento amplo, gratuito e seguro</p>
         </IconsContainer>
         <IconsContainer>
-          <UtensilsCrossed size={40} />
+          <UtensilsCrossedIcon size={40} />
           <p>Restaurante, aberto das 8h às 18h.</p>
         </IconsContainer>
         <IconsContainer>

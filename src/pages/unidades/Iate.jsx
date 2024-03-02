@@ -60,11 +60,9 @@ const IconsContainer = styled.div`
 
 const Iate = () => {
   const fotos = [
-    "/smu/estrutura/estrutura_smu.jpeg",
-    "/smu/estrutura/estrutura_smu1.jpeg",
-    "/smu/estrutura/estrutura_smu2.jpeg",
-    "/smu/estrutura/estrutura_smu3.jpeg",
-    "/smu/estrutura/estrutura_smu4.jpeg",
+    "/iate/estrutura/estrutura_iate1.jpeg",
+    "/iate/estrutura/estrutura_iate2.jpeg",
+    "/iate/estrutura/estrutura_iate3.jpeg",
   ];
   return (
     <Container>

@@ -20,7 +20,7 @@ const Unidades = () => {
       <CardUnidades
         label="IATE CLUBE DE BRASÍLIA"
         contato="(61) 98127-0990"
-        image="/iate/iate.jpg"
+        image="/iate/estrutura/estrutura_iate3.jpeg"
         treinamento={true}
         beach={false}
         individual={true}
@@ -47,7 +47,7 @@ const Unidades = () => {
       <CardUnidades
         label="LAGO SUL"
         contato="(61) 99452-5535"
-        image="/lagosul/lagosul.jpg"
+        image="/lagosul/estrutura/estrutura_lago2.jpeg"
         treinamento={false}
         beach={true}
         individual={false}
