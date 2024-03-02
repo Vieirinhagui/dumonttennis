@@ -22,6 +22,7 @@ const ImageContainer = styled.div`
 const Mapa = styled.iframe`
   width: 100vw;
   height: 500px;
+  margin-top: 32px;
   border: none;
   outline: none;
 `;
@@ -30,7 +31,7 @@ const InformacoesContainer = styled.div`
   width: 100%;
   text-align: left;
   padding: 0 32px;
-  margin: 64px 0;
+  margin: 16px 0;
   @media screen and (min-width: 768px) {
     padding: 0 360px;
   }
@@ -40,7 +41,7 @@ const UnidadeOferece = styled.div`
   width: 100%;
   text-align: left;
   padding: 0 32px;
-  margin: 64px 0;
+  margin: 16px 0;
   @media screen and (min-width: 768px) {
     padding: 0 360px;
   }

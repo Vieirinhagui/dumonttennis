@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import CarrosselEstrutura from "../../components/CarrosselEstrutura";
 import { Car, ShowerHead, UtensilsCrossed, Wifi } from "lucide-react";
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -10,16 +9,20 @@ const Container = styled.div`
 `;
 const ImageContainer = styled.div`
   width: 100vw;
-  height: 490px;
+  height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin-bottom: 64px;
+  @media screen and (min-width: 768px) {
+    height: 490px;
+  }
 `;
 
 const Mapa = styled.iframe`
   width: 100vw;
   height: 500px;
+  margin-top: 32px;
   border: none;
   outline: none;
 `;
@@ -28,16 +31,17 @@ const InformacoesContainer = styled.div`
   width: 100%;
   text-align: left;
   padding: 0 32px;
-  margin: 64px 0;
+  margin: 16px 0;
   @media screen and (min-width: 768px) {
     padding: 0 360px;
   }
 `;
+
 const UnidadeOferece = styled.div`
   width: 100%;
   text-align: left;
   padding: 0 32px;
-  margin: 64px 0;
+  margin: 16px 0;
   @media screen and (min-width: 768px) {
     padding: 0 360px;
   }
@@ -53,6 +57,7 @@ const IconsContainer = styled.div`
   margin: 8px 0;
   text-align: left;
 `;
+
 const LagoSul = () => {
   const fotos = [
     "/lagosul/estrutura/estrutura_lago2.jpeg",
@@ -68,7 +73,9 @@ const LagoSul = () => {
   return (
     <Container>
       <ImageContainer
-        style={{ backgroundImage: `url("/lagosul/estrutura/estrutura_lago4.jpeg")` }}
+        style={{
+          backgroundImage: `url("/lagosul/estrutura/estrutura_lago4.jpeg")`,
+        }}
       />
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
