@@ -117,6 +117,12 @@ const CardUnidades = ({
   beach,
   image,
 }) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <CardContainer>
       <ImageContainer style={{ backgroundImage: `url(${image})` }} />
@@ -292,7 +298,9 @@ const CardUnidades = ({
             <TelefoneStyled>{contato}</TelefoneStyled>
           </div>
         </InfosContainer>
-        <LinkButton to={`/unidade/${unidade}`}>DETALHES</LinkButton>
+        <LinkButton to={`/unidade/${unidade}`} onClick={scrollToTop}>
+          DETALHES
+        </LinkButton>
       </InfoContainer>
     </CardContainer>
   );

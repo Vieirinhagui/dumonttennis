@@ -86,6 +86,12 @@ const Imagem = styled.img`
 
 // eslint-disable-next-line react/prop-types
 const CardHomeUnidades = ({ image, label, unidade }) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <CardContainer>
       <Imagem src={image} alt="" />
@@ -94,7 +100,9 @@ const CardHomeUnidades = ({ image, label, unidade }) => {
           <ParagraphUnidade>UNIDADE</ParagraphUnidade>
           <Unidade>{label}</Unidade>
         </InfosContainer>
-        <BotaoDetalhes to={`/unidade/${unidade}`}>DETALHES</BotaoDetalhes>
+        <BotaoDetalhes to={`/unidade/${unidade}`} onClick={scrollToTop}>
+          DETALHES
+        </BotaoDetalhes>
       </FooterCard>
     </CardContainer>
   );

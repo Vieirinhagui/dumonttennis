@@ -55,15 +55,15 @@ const Buttons = styled(NavLink)`
 `;
 const menuItems = [
   { label: "Home", route: "/" },
-  { label: "Modalidades", route: "#" },
-  { label: "Escola", route: "/escola" },
   { label: "Unidades", route: "/unidades" },
+  { label: "Modalidades", route: "#" },
   { label: "Contato", route: "/contato" },
+  { label: "Escola", route: "/escola" },
 ];
 
 const menuSubItemsModalidades = [
-  { label: "Dumont Kids", route: "/dumontkids" },
   { label: "Treinamento", route: "/treinamento" },
+  { label: "Dumont Kids", route: "/dumontkids" },
   { label: "Aulas em Grupo", route: "/aulasemgrupo" },
   { label: "Aulas Individuais", route: "/aulasindividuais" },
   { label: "Beach Tênis", route: "/beachtenis" },

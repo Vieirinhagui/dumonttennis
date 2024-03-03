@@ -186,7 +186,7 @@ function NavBar() {
             <img src="/logos/logo_amarela.png" alt="" />
           </NavLink>
           <AnimatedNavBarContainer style={contentSpring}>
-            <StyledLink to="/escola">ESCOLA</StyledLink>
+            <StyledLink to="/unidades">UNIDADES</StyledLink>
             <ItemMenu onMouseEnter={toggleMenu} onMouseLeave={toggleMenu}>
               MODALIDADES
               <DropdownMenu isOpen={isMenuOpen}>
@@ -199,8 +199,9 @@ function NavBar() {
                 <DropdownItem to="/beachtenis">Beach Tênis</DropdownItem>
               </DropdownMenu>
             </ItemMenu>
-            <StyledLink to="/unidades">UNIDADES</StyledLink>
             <StyledLink to="/contato">CONTATO</StyledLink>
+            <StyledLink to="/escola">ESCOLA</StyledLink>
+
           </AnimatedNavBarContainer>
         </NavBarContainer>
       )}
