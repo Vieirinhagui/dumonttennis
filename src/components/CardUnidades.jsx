@@ -12,7 +12,7 @@ const CardContainer = styled.div`
   color: #ffcc2b;
   border-radius: 20px;
   @media screen and (min-width: 768px) {
-    width: 600px;
+    width: 650px;
     height: 340px;
     flex-direction: row;
     display: flex;
@@ -43,7 +43,7 @@ const ImageContainer = styled.div`
 
 const InfoContainer = styled.div`
   width: 100%;
-  padding: 20px;
+  padding: 32px 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
