@@ -13,12 +13,11 @@ const ImageContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-bottom: 64px;
+  margin-bottom: 16px;
   @media screen and (min-width: 768px) {
     height: 490px;
   }
 `;
-
 const Mapa = styled.iframe`
   width: 100vw;
   height: 500px;
@@ -60,17 +59,11 @@ const IconsContainer = styled.div`
 
 const Iate = () => {
   const fotos = [
-    "/smu/estrutura/estrutura_smu4.jpeg",
-    "/smu/estrutura/estrutura_smu2.jpeg",
-    "/smu/estrutura/estrutura_smu1.jpeg",
-    "/smu/estrutura/estrutura_smu.jpeg",
-    "/smu/estrutura/estrutura_smu5.jpeg",
-    "/smu/estrutura/estrutura_smu6.jpeg",
-    "/smu/estrutura/estrutura_smu7.jpeg",
-    "/smu/estrutura/estrutura_smu8.jpeg",
-    "/smu/estrutura/estrutura_smu9.jpeg",
-    "/smu/estrutura/estrutura_smu10.jpeg",
-    "/smu/estrutura/estrutura_smu11.jpeg",
+    "/iate/estrutura/estrutura_iate1.jpeg",
+    "/iate/estrutura/estrutura_iate2.jpeg",
+    "/iate/estrutura/estrutura_iate3.jpeg",
+    "/iate/estrutura/estrutura_iate4.jpeg",
+    "/iate/estrutura/estrutura_iate5.jpeg",
   ];
   return (
     <Container>

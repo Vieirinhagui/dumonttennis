@@ -15,7 +15,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 30px;
+  font-size: 26px;
 `;
 const AulasIndividuais = () => {
   return (
@@ -23,11 +23,10 @@ const AulasIndividuais = () => {
       <div>
         <Title>AULAS INDIVIDUAIS</Title>
         <p>
-          Oferecemos aulas em diversas unidades: Iate Clube, Clube do Exército
-          (Setor Militar Urbano - SMU), Lago Sul e Clube Olímpico Assefaz. As
-          aulas incluem aquecimento, alongamento, técnica, alimentação e jogos.
-          Elas ocorrem de segunda a sexta, das 7h às 21h, e aos sábados das 8h
-          às 12h, com duração de 1 hora, sendo disponíveis turmas a cada hora.
+          Para aqueles que buscam aprender ou aprimorar de forma personalizada,
+          os treinos são planejados de acordo com as necessidades ou interesses
+          do aluno, iniciante ou avançado na aula individual o aluno pode
+          treinar detalhes específicos.
         </p>
       </div>
     </Container>

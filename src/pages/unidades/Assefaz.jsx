@@ -4,7 +4,6 @@ import {
   Car,
   ShowerHead,
   Store,
-  UtensilsCrossed,
   UtensilsCrossedIcon,
   Wifi,
 } from "lucide-react";
@@ -20,7 +19,7 @@ const ImageContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-bottom: 64px;
+  margin-bottom: 16px;
   @media screen and (min-width: 768px) {
     height: 490px;
   }

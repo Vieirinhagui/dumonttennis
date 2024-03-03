@@ -13,7 +13,7 @@ const ImageContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-bottom: 64px;
+  margin-bottom: 16px;
   @media screen and (min-width: 768px) {
     height: 490px;
   }
@@ -71,6 +71,7 @@ const ClubeDoExercito = () => {
     "/smu/estrutura/estrutura_smu9.jpeg",
     "/smu/estrutura/estrutura_smu10.jpeg",
     "/smu/estrutura/estrutura_smu11.jpeg",
+    "/smu/estrutura/estrutura_smu12.jpeg",
   ];
   return (
     <Container>

@@ -15,7 +15,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 30px;
+  font-size: 24px;
 `;
 const AulasGrupo = () => {
   return (
@@ -23,12 +23,12 @@ const AulasGrupo = () => {
       <div>
         <Title>AULAS EM GRUPO</Title>
         <p>
-          Oferecemos aulas em grupo em várias unidades: Iate Clube, Clube do
-          Exército (SMU), Lago Sul e Clube Olímpico Assefaz, com até 4 alunos
-          por turma e para todas as idades. As aulas abrangem aquecimento,
-          alongamento, técnica, alimentação e jogos. Elas ocorrem de segunda a
-          sexta, das 7h às 21h, e aos sábados das 8h às 12h, com duração de 1
-          hora e turmas a cada hora.
+          As aulas em grupo são montadas de acordo com nível de desenvolvimento,
+          são dinâmicas pois as turmas são com até 4 pessoas, com duração de uma
+          hora abrangem aquecimento, técnica, tática, alimentação e jogos. Sendo
+          uma excelente opção para além de treinar e desenvolver tecnicamente
+          jogando com pessoas do mesmo nível, socializar, fazer novas amizades e
+          possibilidades marcar jogos além das aulas.
         </p>
       </div>
     </Container>
