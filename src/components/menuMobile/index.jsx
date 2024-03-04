@@ -66,7 +66,7 @@ const menuSubItemsModalidades = [
   { label: "Dumont Kids", route: "/dumontkids" },
   { label: "Aulas em Grupo", route: "/aulasemgrupo" },
   { label: "Aulas Individuais", route: "/aulasindividuais" },
-  { label: "Beach Tênis", route: "/beachtenis" },
+  { label: "Beach Tennis", route: "/beachtenis" },
 ];
 // eslint-disable-next-line react/prop-types
 function MenuMobile({ isOpen, onMenuItemClick }) {

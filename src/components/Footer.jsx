@@ -112,9 +112,9 @@ const Footer = () => {
       </InfosFooterContainer>
       <FooterFooter>
         <SocialContainer>
-          <img src="icons/whatsapp.svg" width="24px" alt="" />
-          <img src="icons/instagram.svg" width="24px" alt="" />
-          <img src="icons/facebook.svg" width="24px" alt="" />
+          <Link to="https://www.instagram.com/dumonttennis/">
+            <img src="icons/instagram.svg" width="26px" alt="" />
+          </Link>
         </SocialContainer>
         <img src="/logos/logo_preta.png" alt="" />
         <p>©2023 Dumont Tennis</p>

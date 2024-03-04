@@ -21,9 +21,9 @@ const BeachTenis = () => {
   return (
     <Container>
       <div>
-        <Title>BEACH TÊNIS</Title>
+        <Title>BEACH TENNIS</Title>
         <p>
-          Oferecemos aulas de Beach Tênis em grupo no Lago Sul e no Clube
+          Oferecemos aulas de Beach Tennis em grupo no Lago Sul e no Clube
           Olímpico Assefaz, com turmas de até 6 pessoas, incluindo escolinha
           para crianças. As aulas trazem a abordagem de alguns itens básicos
           como aquecimento, alongamento, técnica, alimentação e jogos, adequadas

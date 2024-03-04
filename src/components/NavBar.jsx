@@ -196,7 +196,7 @@ function NavBar() {
                 <DropdownItem to="/aulasindividuais">
                   Aulas Individuais
                 </DropdownItem>
-                <DropdownItem to="/beachtenis">Beach Tênis</DropdownItem>
+                <DropdownItem to="/beachtenis">Beach Tennis</DropdownItem>
               </DropdownMenu>
             </ItemMenu>
             <StyledLink to="/contato">CONTATO</StyledLink>
