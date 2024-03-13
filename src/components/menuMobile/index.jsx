@@ -57,7 +57,7 @@ const menuItems = [
   { label: "Home", route: "/" },
   { label: "Unidades", route: "/unidades" },
   { label: "Modalidades", route: "#" },
-  { label: "Contato", route: "/contato" },
+  // { label: "Contato", route: "/contato" },
   { label: "Escola", route: "/escola" },
 ];
 

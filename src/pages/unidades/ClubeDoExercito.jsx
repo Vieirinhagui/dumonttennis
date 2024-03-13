@@ -78,6 +78,14 @@ const ClubeDoExercito = () => {
       <ImageContainer
         style={{ backgroundImage: `url("/smu/capa_smu.jpeg")` }}
       />
+      <p>
+        A unidade do Setor Militar Urbano-SMU está localizada entre o sudoeste e
+        nordeste, nossa unidade do Clube do Exército-SMU atendemos todas as
+        idades, sócios e não sócios, com opções de aulas em grupo, individuais e
+        programa Dumont Kids para crianças a partir de 5 anos. Venha nos
+        conhecer e traga sua família para experimentar a diversão conosco.
+        Marque sua avaliação hoje mesmo!
+      </p>
       <CarrosselEstrutura unidade="smu" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
@@ -95,15 +103,15 @@ const ClubeDoExercito = () => {
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossed size={40} />
-          <p>Restaurante, aberto das 8h às 18h.</p>
+          <p>Restaurante, aberto das 9h às 17h.</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/rapida.svg" alt="" />
-          <p>1 Quadra Rápida</p>
+          <p>2 Quadras Rápidas</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>1 Quadra Saibro</p>
+          <p>4 Quadras Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />

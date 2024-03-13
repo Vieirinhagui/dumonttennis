@@ -7,7 +7,7 @@ const CardContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   background-color: black;
   color: #ffcc2b;
   border-radius: 20px;
@@ -26,7 +26,7 @@ const CardContainer = styled.div`
 
 const ImageContainer = styled.div`
   width: 100%;
-  height: 50%;
+  height: 100%;
   border-radius: 20px 20px 0 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ const ImageContainer = styled.div`
 
 const InfoContainer = styled.div`
   width: 100%;
-  padding: 32px 8px;
+  padding: 16px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -7,8 +7,8 @@ import WhatsappFlutuante from "../components/WhatsappFlutuante";
 const WrapperContainer = styled.div`
   width: 100vw;
   background-color: #ffcc2b;
+  overflow-x: hidden;
 `;
-
 
 // eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => {

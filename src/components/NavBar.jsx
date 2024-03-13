@@ -180,7 +180,6 @@ function NavBar() {
           </HamburguerButton>
         </NavBarMobileDiv>
       ) : (
-        // Usar "AnimatedNavBarContainer" em vez de "NavBarContainer"
         <NavBarContainer>
           <NavLink to="/">
             <img src="/logos/logo_amarela.png" alt="" />
@@ -199,9 +198,8 @@ function NavBar() {
                 <DropdownItem to="/beachtenis">Beach Tennis</DropdownItem>
               </DropdownMenu>
             </ItemMenu>
-            <StyledLink to="/contato">CONTATO</StyledLink>
+            {/* <StyledLink to="/contato">CONTATO</StyledLink> */}
             <StyledLink to="/escola">ESCOLA</StyledLink>
-
           </AnimatedNavBarContainer>
         </NavBarContainer>
       )}

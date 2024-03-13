@@ -25,10 +25,9 @@ const BeachTenis = () => {
         <p>
           Oferecemos aulas de Beach Tennis em grupo no Lago Sul e no Clube
           Olímpico Assefaz, com turmas de até 6 pessoas, incluindo escolinha
-          para crianças. As aulas trazem a abordagem de alguns itens básicos
+          para crianças. As aulas trazem uma abordagem de alguns itens básicos
           como aquecimento, alongamento, técnica, alimentação e jogos, adequadas
-          para todas as idades. Elas ocorrem de segunda a sexta, das 7h às 21h,
-          e aos sábados das 8h às 12h, com duração de 1 hora.
+          para todas as idades. 
         </p>
       </div>
     </Container>

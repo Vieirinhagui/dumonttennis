@@ -81,7 +81,7 @@ const InfosContainer = styled.div`
 
 const Imagem = styled.img`
   width: 100%;
-  height: 70%;
+  height: 100%;
 `;
 
 // eslint-disable-next-line react/prop-types

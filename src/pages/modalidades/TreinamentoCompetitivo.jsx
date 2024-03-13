@@ -25,30 +25,36 @@ const TreinamentoCompetitivo = () => {
         <Title>EQUIPE</Title>
         <p>
           Jovens que estão jogando torneios estaduais, nacionais e
-          internacionais.CARGA HORÁRIA: Três horas e meia diárias. De 3 à 5
-          vezes por semana, sob orientação técnica. 30 minutos de aquecimento;2
-          horas de quadra;1 hora de preparação física. A Clínica de treinamento
-          conta com:Preparador Físico;Parcerias com psicólogo, nutricionista e
-          fisioterapeuta;Planejamento de calendário para torneios;Acompanhamento
-          em torneios;Quadras de saibro, piso rápido e quadras cobertas. Os
-          treinamentos acontecem de segunda à sexta das 14h00 às 18h
+          internacionais. <br />
+          CARGA HORÁRIA: <br />
+          Três horas e meia diárias. <br />
+          De 3 à 5 vezes por semana, sob orientação técnica. 30 minutos de
+          aquecimento; <br />
+          2 horas de quadra; <br />
+          1 hora de preparação física. <br />
+          A Clínica de treinamento conta com: Preparador Físico; <br />
+          Parcerias com psicólogo, nutricionista e fisioterapeuta; <br />
+          Planejamento de calendário para torneios; <br />
+          Acompanhamento em torneios; <br />
+          Quadras de saibro, piso rápido e quadras cobertas. <br />
+          Os treinamentos acontecem de segunda à sexta das 14h00 às 18h
         </p>
       </div>
       <div>
         <Title>PRÉ-EQUIPE</Title>
         <p>
           Jovens que estão começando a treinar de forma competitiva com objetivo
-          de começar a jogar torneios.CARGA HORÁRIA: De 1(uma) à 2(duas) horas
-          diárias, de 2 à 5 vezes por semana de acordo com a idade e
-          desenvolvimento, sob avaliação técnica.
+          de começar a jogar torneios. <br />
+          CARGA HORÁRIA: De 1(uma) à 2(duas) horas diárias, de 2 à 5 vezes por
+          semana de acordo com a idade e desenvolvimento, sob avaliação técnica.
         </p>
       </div>
       <div>
         <Title>Tenis Universitário</Title>
         <p>
           O tênis abre muitos caminhos para os atletas, além da busca para se
-          tornar profissional muitos jogadores consegume bolsas de estudos em
-          universidades em outros países através do esporte, assim eles podem
+          tornar profissional muitos jogadores conseguem bolsas de estudos em
+          universidades fora do país através do esporte, assim eles podem
           garantir os estudos com a oportunidade de continuar jogando.
         </p>
       </div>

@@ -191,7 +191,7 @@ const Home = () => {
               <ImageContainer>
                 <CardHomeUnidades
                   image="/smu/smu.jpg"
-                  label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO"
+                  label="CLUBE DO EXÉRCITO DO SETOR DO MILITAR URBANO - SMU"
                   unidade="smu"
                 />
               </ImageContainer>
@@ -247,6 +247,12 @@ const Home = () => {
             subtitle="INDIVIDUAIS"
             imagem="/cardsModalidades/individual.jpeg"
             path="/aulasindividuais"
+          />
+          <CardHomeModalidade
+            title="BEACH"
+            subtitle="TENNIS"
+            imagem="/cardsModalidades/beachtenis.jpeg"
+            path="/beachtenis"
           />
         </ModalidadesContainer>
       </SeccaoContainer>

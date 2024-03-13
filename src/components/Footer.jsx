@@ -96,12 +96,20 @@ const Footer = () => {
 
         <div>
           <UnidadeFootContainer>
+            <h4>Horário de Funcionamento</h4>
             <p>Segunda à sexta</p>
             <h4>7h às 21h</h4>
           </UnidadeFootContainer>
           <UnidadeFootContainer>
             <p>Sábados</p>
             <h4>8h às 12h</h4>
+          </UnidadeFootContainer>
+          <br />
+          <br />
+          <UnidadeFootContainer>
+            <h4>Horário de Atendimento</h4>
+            <p>Segunda à sexta</p>
+            <h4>8h às 18h</h4>
           </UnidadeFootContainer>
         </div>
         <div>
@@ -113,7 +121,7 @@ const Footer = () => {
       <FooterFooter>
         <SocialContainer>
           <Link to="https://www.instagram.com/dumonttennis/">
-            <img src="icons/instagram.svg" width="26px" alt="" />
+            <img src="/icons/instagram1.svg" width="36px" alt="" />
           </Link>
         </SocialContainer>
         <img src="/logos/logo_preta.png" alt="" />

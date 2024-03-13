@@ -59,15 +59,16 @@ const IconsContainer = styled.div`
 
 const Iate = () => {
   const fotos = [
-    "/iate/estrutura/estrutura_iate1.jpeg",
-    "/iate/estrutura/estrutura_iate2.jpeg",
     "/iate/estrutura/estrutura_iate3.jpeg",
+    "/iate/estrutura/estrutura_iate2.jpeg",
     "/iate/estrutura/estrutura_iate4.jpeg",
-    "/iate/estrutura/estrutura_iate5.jpeg",
+    "/iate/estrutura/estrutura_iate1.jpeg",
+    "/iate/estrutura/estrutura_iate7.jpeg",
+    "/iate/estrutura/estrutura_iate8.jpeg",
   ];
   return (
     <Container>
-      <ImageContainer style={{ backgroundImage: `url("/iate/iate.jpg")` }} />
+      <ImageContainer style={{ backgroundImage: `url("/iate/estrutura/estrutura_iate10.jpeg")` }} />
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
@@ -85,19 +86,19 @@ const Iate = () => {
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossed size={40} />
-          <p>Restaurante, aberto das 8h às 18h.</p>
+          <p>Restaurante, aberto das 8h às 21h.</p>
+        </IconsContainer>
+        <IconsContainer>
+          <img src="/icons/quadra.svg" alt="" />
+          <p>Quadras Cobertas</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/rapida.svg" alt="" />
-          <p>1 Quadra Rápida</p>
+          <p>4 Quadras Rápidas</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>1 Quadra Saibro</p>
-        </IconsContainer>
-        <IconsContainer>
-          <img src="/icons/paredao.svg" alt="" />
-          <p>1 Paredão</p>
+          <p>11 Quadras Saibro</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>

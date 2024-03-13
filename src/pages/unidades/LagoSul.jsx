@@ -79,29 +79,30 @@ const LagoSul = () => {
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
-        <IconsContainer>
-          <Wifi size={40} strokeWidth={3} />
-          <p>Wifi gratuito</p>
-        </IconsContainer>
+        
         <IconsContainer>
           <ShowerHead size={40} />
           <p>Vestiário masculino e feminino</p>
         </IconsContainer>
         <IconsContainer>
           <Car size={40} />
-          <p>Estacionamento amplo, gratuito e seguro</p>
+          <p>Estacionamento gratuito e seguro</p>
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossed size={40} />
-          <p>Restaurante, aberto das 8h às 18h.</p>
+          <p>Lanchonete, aberto das 8h às 18h.</p>
+        </IconsContainer>
+        <IconsContainer>
+          <img src="/icons/quadra.svg" alt="" />
+          <p>Aluguel de Quadras</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>2 Quadra Saibro</p>
+          <p>2 Quadras Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />
-          <p>2 Quadra de Beach Tênnis</p>
+          <p>1 Quadra de Beach Tênnis</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>
@@ -114,8 +115,8 @@ const LagoSul = () => {
           <br />
           Telefone: (61) 99138 6671 | (61) 3366-3338 | (61) 99258-3009
           <br />
-          Horário de Atendimento: de segunda a sexta de 07h às 22h - sábado 08h
-          à 12h
+          Horário de Atendimento: de segunda a sexta de 07h às 21h - sábado 08h
+          às 12h
           <br />
         </p>
       </InformacoesContainer>

@@ -66,16 +66,20 @@ const IconsContainer = styled.div`
 
 const Assefaz = () => {
   const fotos = [
-    "/assefaz/estrutura/estrutura_assefaz.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz1.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz2.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz3.jpeg",
     "/assefaz/estrutura/estrutura_assefaz4.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz1.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz3.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz5.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz6.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz7.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz8.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz10.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz9.jpeg",
   ];
   return (
     <Container>
       <ImageContainer
-        style={{ backgroundImage: `url("/assefaz/assefaz.jpg")` }}
+        style={{ backgroundImage: `url("/assefaz/estrutura/estrutura_assefaz2.jpeg")` }}
       />
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
@@ -110,7 +114,7 @@ const Assefaz = () => {
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>4 Quadras de Saibro</p>
+          <p>4 Quadras Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />

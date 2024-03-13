@@ -6,11 +6,9 @@ const ModalidadeCard = styled(Link)`
   width: 100vw;
   height: 300px;
   position: relative;
-  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
   @media screen and (min-width: 768px) {
     width: calc(100vw / 4);
     height: 450px;
@@ -25,15 +23,12 @@ const ImageModalidadeCard = styled.img`
 
 const TextModalidadeCard = styled.p`
   position: absolute;
-  bottom: 35%;
-  font-size: 30px;
+  bottom: 16px;
+  font-size: 26px;
   text-shadow: 1px 1px 17px rgba(0, 0, 0, 1);
   font-weight: bold;
-  color: white;
-  z-index: 1; 
-  @media screen and (min-width:768px){
-    bottom: 45%;
-  }
+  color: #ffcc2b;
+  z-index: 1;
 `;
 
 const Overlay = styled.div`
@@ -54,7 +49,7 @@ const CardHomeModalidade = ({ title, subtitle, imagem, path }) => {
     });
   };
   return (
-    <ModalidadeCard to={path} onClick={scrollToTop}>
+    <ModalidadeCard onClick={scrollToTop} to={path}>
       <ImageModalidadeCard src={imagem} alt="" />
       <Overlay />
       <TextModalidadeCard>

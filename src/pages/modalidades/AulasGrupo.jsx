@@ -24,7 +24,7 @@ const AulasGrupo = () => {
         <Title>AULAS EM GRUPO</Title>
         <p>
           As aulas em grupo são montadas de acordo com nível de desenvolvimento,
-          são dinâmicas pois as turmas são com até 4 pessoas, com duração de uma
+          são dinâmicas pois as turmas possuem até 4 pessoas, com duração de uma
           hora abrangem aquecimento, técnica, tática, alimentação e jogos. Sendo
           uma excelente opção para além de treinar e desenvolver tecnicamente
           jogando com pessoas do mesmo nível, socializar, fazer novas amizades e

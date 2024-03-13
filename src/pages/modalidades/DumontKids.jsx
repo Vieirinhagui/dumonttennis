@@ -24,7 +24,7 @@ const DumontKids = () => {
         <Title>DUMONT KIDS</Title>
         <p>
           A Dumont Kids oferece uma abordagem única para introduzir as crianças
-          ao mundo do tênis, com uma metodologia própria e utilização de
+          no mundo do tênis, com uma metodologia própria e utilização de
           materiais adequados e adaptados, para tornar o aprendizado uma
           experiência divertida e cativante. As aulas são planejadas para
           estimular o desenvolvimento físico, mental e emocional dos pequenos
@@ -33,7 +33,7 @@ const DumontKids = () => {
           essenciais como coordenação motora, concentração e trabalho em equipe.
           <br />
           <br />
-          Com uma ênfase na progressão gradual e no apoio de instrutores
+          Com ênfase na progressão gradual e no apoio de instrutores
           experientes, a Dumont Kids promove valores como disciplina, respeito e
           determinação, preparando as crianças não apenas para se destacarem no
           tênis, mas também para enfrentarem desafios em todas as áreas de suas
