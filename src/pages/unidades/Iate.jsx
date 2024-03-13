@@ -56,19 +56,44 @@ const IconsContainer = styled.div`
   margin: 8px 0;
   text-align: left;
 `;
-
+const InfosContainer = styled.div`
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 16px 32px;
+  gap: 8px;
+  @media screen and (min-width: 768px) {
+    padding: 32px 300px;
+  }
+`;
 const Iate = () => {
   const fotos = [
+    "/iate/estrutura/estrutura_iate7.jpeg",
+    "/iate/estrutura/estrutura_iate8.jpeg",
     "/iate/estrutura/estrutura_iate3.jpeg",
     "/iate/estrutura/estrutura_iate2.jpeg",
     "/iate/estrutura/estrutura_iate4.jpeg",
     "/iate/estrutura/estrutura_iate1.jpeg",
-    "/iate/estrutura/estrutura_iate7.jpeg",
-    "/iate/estrutura/estrutura_iate8.jpeg",
   ];
   return (
     <Container>
-      <ImageContainer style={{ backgroundImage: `url("/iate/estrutura/estrutura_iate10.jpeg")` }} />
+      <ImageContainer
+        style={{
+          backgroundImage: `url("/iate/estrutura/estrutura_iate10.jpeg")`,
+        }}
+      />
+      <InfosContainer>
+        <p>
+          A unidade Iate Clube de Brasília, está localizada no Setor de Clubes
+          Esportivos Norte, onde funciona nosso centro de treinamento
+          competitivo e o programa Dumont Kids para crianças a partir de 5 anos,
+          temos opções de aulas em grupo ou individual para adultos. <br /> Marque sua
+          avaliação hoje mesmo!
+        </p>
+      </InfosContainer>
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
@@ -86,19 +111,19 @@ const Iate = () => {
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossed size={40} />
-          <p>Restaurante, aberto das 8h às 21h.</p>
+          <p>Restaurante e Lanchonete.</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/quadra.svg" alt="" />
-          <p>Quadras Cobertas</p>
+          <p>Quadra Coberta</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/rapida.svg" alt="" />
-          <p>4 Quadras Rápidas</p>
+          <p>Quadra Rápida</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>11 Quadras Saibro</p>
+          <p>Quadra de Saibro</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>
@@ -112,7 +137,8 @@ const Iate = () => {
           <br />
           Telefone: (61) 98127 0990
           <br />
-          Horário de Atendimento: de segunda a sexta de 07h às 21h
+          Horário de Funcionamento: de segunda a sexta de 07h às 21h Horário de
+          Atendimento: de segunda a sexta de 07h às 21h
           <br />
         </p>
       </InformacoesContainer>

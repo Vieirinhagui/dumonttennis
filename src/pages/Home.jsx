@@ -181,7 +181,7 @@ const Home = () => {
             <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades
-                  image="/iate/iate.jpg"
+                  image="/iate/estrutura/estrutura_iate10.jpeg"
                   label="IATE CLUBE DE BRASÍLIA"
                   unidade="iate"
                 />
@@ -200,7 +200,7 @@ const Home = () => {
             <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades
-                  image="/assefaz/assefaz.jpg"
+                  image="/assefaz/estrutura/estrutura_assefaz2.jpeg"
                   label="CLUBE OLÍMPICO ASSEFAZ"
                   unidade="assefaz"
                 />

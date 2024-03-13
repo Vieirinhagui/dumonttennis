@@ -1,27 +1,13 @@
-import styled from "styled-components";
-
-const TreinamentoContainer = styled.div`
-  width: 100vw;
-  height: auto;
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  gap: 32px;
-  @media screen and (min-width: 768px) {
-    padding: 64px 256px;
-  }
-`;
-
-const Title = styled.h1`
-  font-size: 24px;
-`;
+import ModalidadesLayout, {
+  ImageContainer,
+  InfosContainer,
+  Title,
+} from "./ModalidadesLayout";
 
 const TreinamentoCompetitivo = () => {
   return (
-    <TreinamentoContainer>
-      <div>
+    <ModalidadesLayout>
+      <InfosContainer>
         <Title>EQUIPE</Title>
         <p>
           Jovens que estão jogando torneios estaduais, nacionais e
@@ -39,8 +25,8 @@ const TreinamentoCompetitivo = () => {
           Quadras de saibro, piso rápido e quadras cobertas. <br />
           Os treinamentos acontecem de segunda à sexta das 14h00 às 18h
         </p>
-      </div>
-      <div>
+      </InfosContainer>
+      <InfosContainer>
         <Title>PRÉ-EQUIPE</Title>
         <p>
           Jovens que estão começando a treinar de forma competitiva com objetivo
@@ -48,8 +34,8 @@ const TreinamentoCompetitivo = () => {
           CARGA HORÁRIA: De 1(uma) à 2(duas) horas diárias, de 2 à 5 vezes por
           semana de acordo com a idade e desenvolvimento, sob avaliação técnica.
         </p>
-      </div>
-      <div>
+      </InfosContainer>
+      <InfosContainer>
         <Title>Tenis Universitário</Title>
         <p>
           O tênis abre muitos caminhos para os atletas, além da busca para se
@@ -57,8 +43,8 @@ const TreinamentoCompetitivo = () => {
           universidades fora do país através do esporte, assim eles podem
           garantir os estudos com a oportunidade de continuar jogando.
         </p>
-      </div>
-      <div>
+      </InfosContainer>
+      <InfosContainer>
         <Title>PRÉ-TEMPORADA</Title>
         <p>
           A pré-temporada acontece sempre nos meses de julho, dezembro e
@@ -67,8 +53,8 @@ const TreinamentoCompetitivo = () => {
           para o semestre e para o ano. Recebemos atletas de vários estados e de
           outros países.
         </p>
-      </div>
-    </TreinamentoContainer>
+      </InfosContainer>
+    </ModalidadesLayout>
   );
 };
 

@@ -1,27 +1,15 @@
-import styled from "styled-components";
+import ModalidadesLayout, {
+  InfosContainer,
+  ImageContainer,
+} from "./ModalidadesLayout.jsx";
 
-const Container = styled.div`
-  width: 100vw;
-  height: auto;
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  gap: 32px;
-  @media screen and (min-width: 768px) {
-    padding: 64px 256px;
-  }
-`;
-
-const Title = styled.h1`
-  font-size: 24px;
-`;
 const DumontKids = () => {
   return (
-    <Container>
-      <div>
-        <Title>DUMONT KIDS</Title>
+    <ModalidadesLayout
+      title="DUMONT KIDS"
+      pathCapa="/modalidades/dumontkids/dumontkids2.jpeg"
+    >
+      <InfosContainer>
         <p>
           A Dumont Kids oferece uma abordagem única para introduzir as crianças
           no mundo do tênis, com uma metodologia própria e utilização de
@@ -31,8 +19,15 @@ const DumontKids = () => {
           tenistas, incluindo jogos e atividades lúdicas para ensinar os
           fundamentos do esporte, ao mesmo tempo em que desenvolvem habilidades
           essenciais como coordenação motora, concentração e trabalho em equipe.
-          <br />
-          <br />
+        </p>
+      </InfosContainer>
+      <ImageContainer
+        style={{
+          backgroundImage: `url("/modalidades/dumontkids/dumontkids7.jpeg")`,
+        }}
+      />
+      <InfosContainer>
+        <p>
           Com ênfase na progressão gradual e no apoio de instrutores
           experientes, a Dumont Kids promove valores como disciplina, respeito e
           determinação, preparando as crianças não apenas para se destacarem no
@@ -42,8 +37,8 @@ const DumontKids = () => {
           de tênis, convidando os mais jovens talentos a se juntarem a essa
           experiência inesquecível.
         </p>
-      </div>
-    </Container>
+      </InfosContainer>
+    </ModalidadesLayout>
   );
 };
 

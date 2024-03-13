@@ -57,7 +57,19 @@ const IconsContainer = styled.div`
   margin: 8px 0;
   text-align: left;
 `;
-
+const InfosContainer = styled.div`
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 16px 32px;
+  gap: 8px;
+  @media screen and (min-width: 768px) {
+    padding: 32px 300px;
+  }
+`;
 const ClubeDoExercito = () => {
   const fotos = [
     "/smu/estrutura/estrutura_smu4.jpeg",
@@ -78,14 +90,17 @@ const ClubeDoExercito = () => {
       <ImageContainer
         style={{ backgroundImage: `url("/smu/capa_smu.jpeg")` }}
       />
-      <p>
-        A unidade do Setor Militar Urbano-SMU está localizada entre o sudoeste e
-        nordeste, nossa unidade do Clube do Exército-SMU atendemos todas as
-        idades, sócios e não sócios, com opções de aulas em grupo, individuais e
-        programa Dumont Kids para crianças a partir de 5 anos. Venha nos
-        conhecer e traga sua família para experimentar a diversão conosco.
-        Marque sua avaliação hoje mesmo!
-      </p>
+      <InfosContainer>
+        <p>
+          A unidade do Setor Militar Urbano-SMU está localizada entre o sudoeste
+          e nordeste, nossa unidade do Clube do Exército-SMU atendemos todas as
+          idades, sócios e não sócios, com opções de aulas em grupo, individuais
+          e programa Dumont Kids para crianças a partir de 5 anos. 
+          <br />
+          Marque sua avaliação hoje mesmo!
+        </p>
+      </InfosContainer>
+
       <CarrosselEstrutura unidade="smu" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
@@ -103,19 +118,19 @@ const ClubeDoExercito = () => {
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossed size={40} />
-          <p>Restaurante, aberto das 9h às 17h.</p>
+          <p>Restaurante.</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/rapida.svg" alt="" />
-          <p>2 Quadras Rápidas</p>
+          <p>Quadra Rápida</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>4 Quadras Saibro</p>
+          <p>Quadra de Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />
-          <p>1 Paredão</p>
+          <p>Paredão</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>
@@ -130,8 +145,9 @@ const ClubeDoExercito = () => {
           <br />
           Telefone: (61) 98465 0881
           <br />
-          Horário de Atendimento: de segunda a sexta de 07h às 21h – sábado 08h
-          à 12h
+          Horário de Funcionamento: de segunda a sexta de 07h às 21h – sábado
+          08h à 12h Horário de Atendimento: de segunda a sexta de 07h às 21h –
+          sábado 08h à 12h
           <br />
         </p>
       </InformacoesContainer>

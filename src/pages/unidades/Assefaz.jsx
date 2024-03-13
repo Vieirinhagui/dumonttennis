@@ -63,24 +63,47 @@ const IconsContainer = styled.div`
   margin: 8px 0;
   text-align: left;
 `;
-
+const InfosContainer = styled.div`
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 16px 32px;
+  gap: 8px;
+  @media screen and (min-width: 768px) {
+    padding: 32px 300px;
+  }
+`;
 const Assefaz = () => {
   const fotos = [
     "/assefaz/estrutura/estrutura_assefaz4.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz1.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz3.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz5.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz6.jpeg",
-    "/assefaz/estrutura/estrutura_assefaz7.jpeg",
     "/assefaz/estrutura/estrutura_assefaz8.jpeg",
     "/assefaz/estrutura/estrutura_assefaz10.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz1.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz6.jpeg",
     "/assefaz/estrutura/estrutura_assefaz9.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz3.jpeg",
+    "/assefaz/estrutura/estrutura_assefaz5.jpeg",
   ];
   return (
     <Container>
       <ImageContainer
-        style={{ backgroundImage: `url("/assefaz/estrutura/estrutura_assefaz2.jpeg")` }}
+        style={{
+          backgroundImage: `url("/assefaz/estrutura/estrutura_assefaz2.jpeg")`,
+        }}
       />
+      <InfosContainer>
+        <p>
+          A unidade do Clube Olímpico Assefaz está localizada no Setor de Clubes
+          Esportivos Sul, próxima a ponte Jk e aos principais órgãos do Governo
+          em Brasília, atendemos todas as idades, sócios e não sócios do clube,
+          oferecemos aulas em grupo, individuais, programa Dumont Kids para
+          crianças a partir de 5 anos e o Beach Tenis. <br />
+          Marque sua avaliação hoje mesmo!
+        </p>
+      </InfosContainer>
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
@@ -98,7 +121,7 @@ const Assefaz = () => {
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossedIcon size={40} />
-          <p>Restaurante, aberto das 8h às 18h.</p>
+          <p>Restaurante.</p>
         </IconsContainer>
         <IconsContainer>
           <Store size={40} />
@@ -110,15 +133,15 @@ const Assefaz = () => {
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/rapida.svg" alt="" />
-          <p>2 Quadras de Beach Tênnis</p>
+          <p>Quadra de Beach Tennis</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>4 Quadras Saibro</p>
+          <p>Quadra Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />
-          <p>1 Paredão</p>
+          <p>Paredão</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>
@@ -131,8 +154,9 @@ const Assefaz = () => {
           <br />
           Telefone: (61) 99258-2411
           <br />
-          Horário de Atendimento: de segunda a sexta de 07h às 21h – sábado 08h
-          à 12h
+          Horário de Funcionamento: de segunda a sexta de 07h às 21h – sábado
+          08h à 12h Horário de Atendimento: de segunda a sexta de 07h às 21h –
+          sábado 08h à 12h
           <br />
         </p>
       </InformacoesContainer>

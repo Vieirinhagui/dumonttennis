@@ -56,7 +56,19 @@ const IconsContainer = styled.div`
   margin: 8px 0;
   text-align: left;
 `;
-
+const InfosContainer = styled.div`
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 16px 32px;
+  gap: 8px;
+  @media screen and (min-width: 768px) {
+    padding: 32px 392px;
+  }
+`;
 const LagoSul = () => {
   const fotos = [
     "/lagosul/estrutura/estrutura_lago2.jpeg",
@@ -76,10 +88,19 @@ const LagoSul = () => {
           backgroundImage: `url("/lagosul/estrutura/estrutura_lago4.jpeg")`,
         }}
       />
+      <InfosContainer>
+        <p>
+          A unidade do Lago Sul está localizada na QI 23 do Lago Sul, nossa
+          unidade atende todas as idades, com opções de aulas em grupo e
+          programa Dumont Kids para crianças a partir de 5 anos. Traga sua
+          família e venham viver momentos inesquecíveis. <br />
+          Marque sua avaliação hoje mesmo!
+        </p>
+      </InfosContainer>
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
-        
+
         <IconsContainer>
           <ShowerHead size={40} />
           <p>Vestiário masculino e feminino</p>
@@ -90,7 +111,7 @@ const LagoSul = () => {
         </IconsContainer>
         <IconsContainer>
           <UtensilsCrossed size={40} />
-          <p>Lanchonete, aberto das 8h às 18h.</p>
+          <p>Lanchonete.</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/quadra.svg" alt="" />
@@ -98,11 +119,11 @@ const LagoSul = () => {
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/saibro.svg" alt="" />
-          <p>2 Quadras Saibro</p>
+          <p>Quadra de Saibro</p>
         </IconsContainer>
         <IconsContainer>
           <img src="/icons/paredao.svg" alt="" />
-          <p>1 Quadra de Beach Tênnis</p>
+          <p>Quadra de Beach Tennis</p>
         </IconsContainer>
       </UnidadeOferece>
       <InformacoesContainer>
@@ -115,8 +136,9 @@ const LagoSul = () => {
           <br />
           Telefone: (61) 99138 6671 | (61) 3366-3338 | (61) 99258-3009
           <br />
-          Horário de Atendimento: de segunda a sexta de 07h às 21h - sábado 08h
-          às 12h
+          Horário de Funcionamento: de segunda a sexta de 07h às 21h - sábado
+          08h às 12h Horário de Atendimento: de segunda a sexta de 07h às 21h -
+          sábado 08h às 12h
           <br />
         </p>
       </InformacoesContainer>
