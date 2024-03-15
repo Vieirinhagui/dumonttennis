@@ -69,6 +69,14 @@ const InfosContainer = styled.div`
     padding: 32px 300px;
   }
 `;
+const HorariosContainer = styled.div`
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: -4px;
+`;
 const Iate = () => {
   const fotos = [
     "/iate/estrutura/estrutura_iate7.jpeg",
@@ -90,8 +98,8 @@ const Iate = () => {
           A unidade Iate Clube de Brasília, está localizada no Setor de Clubes
           Esportivos Norte, onde funciona nosso centro de treinamento
           competitivo e o programa Dumont Kids para crianças a partir de 5 anos,
-          temos opções de aulas em grupo ou individual para adultos. <br /> Marque sua
-          avaliação hoje mesmo!
+          temos opções de aulas em grupo ou individual para adultos. <br />{" "}
+          Marque sua avaliação hoje mesmo!
         </p>
       </InfosContainer>
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
@@ -137,8 +145,24 @@ const Iate = () => {
           <br />
           Telefone: (61) 98127 0990
           <br />
-          Horário de Funcionamento: de segunda a sexta de 07h às 21h Horário de
-          Atendimento: de segunda a sexta de 07h às 21h
+          <br />
+          <div>
+            <HorariosContainer>
+              <h4>Horário de Funcionamento</h4>
+              <p>Segunda à sexta</p>
+              <h4>7h às 21h</h4>
+            </HorariosContainer>
+            <HorariosContainer>
+              <p>Sábados</p>
+              <h4>8h às 12h</h4>
+            </HorariosContainer>
+            <br />
+            <HorariosContainer>
+              <h4>Horário de Atendimento</h4>
+              <p>Segunda à sexta</p>
+              <h4>8h às 18h</h4>
+            </HorariosContainer>
+          </div>
           <br />
         </p>
       </InformacoesContainer>

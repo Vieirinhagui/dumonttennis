@@ -57,7 +57,7 @@ const SocialContainer = styled.div`
   justify-content: center;
   gap: 8px;
 `;
-const Footer = () => {
+const Footer = ({ horario }) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -94,24 +94,26 @@ const Footer = () => {
           </UnidadeFootContainer>
         </UnidadesFooterContainer>
 
-        <div>
-          <UnidadeFootContainer>
-            <h4>Horário de Funcionamento</h4>
-            <p>Segunda à sexta</p>
-            <h4>7h às 21h</h4>
-          </UnidadeFootContainer>
-          <UnidadeFootContainer>
-            <p>Sábados</p>
-            <h4>8h às 12h</h4>
-          </UnidadeFootContainer>
-          <br />
-          <br />
-          <UnidadeFootContainer>
-            <h4>Horário de Atendimento</h4>
-            <p>Segunda à sexta</p>
-            <h4>8h às 18h</h4>
-          </UnidadeFootContainer>
-        </div>
+        {horario && (
+          <div>
+            <UnidadeFootContainer>
+              <h4>Horário de Funcionamento</h4>
+              <p>Segunda à sexta</p>
+              <h4>7h às 21h</h4>
+            </UnidadeFootContainer>
+            <UnidadeFootContainer>
+              <p>Sábados</p>
+              <h4>8h às 12h</h4>
+            </UnidadeFootContainer>
+            <br />
+            <br />
+            <UnidadeFootContainer>
+              <h4>Horário de Atendimento</h4>
+              <p>Segunda à sexta</p>
+              <h4>8h às 18h</h4>
+            </UnidadeFootContainer>
+          </div>
+        )}
         <div>
           <LinkFooter to="/unidades" onClick={scrollToTop}>
             Confira os endereços completos

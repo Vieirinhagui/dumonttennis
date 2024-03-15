@@ -22,7 +22,7 @@ function App() {
           <Route
             path="/"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <Home />
               </Layout>
             }
@@ -30,7 +30,7 @@ function App() {
           <Route
             path="/escola"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <Escola />
               </Layout>
             }
@@ -38,7 +38,7 @@ function App() {
           <Route
             path="/fotos"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <Home />
               </Layout>
             }
@@ -46,7 +46,7 @@ function App() {
           <Route
             path="/contato"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <Home />
               </Layout>
             }
@@ -54,7 +54,7 @@ function App() {
           <Route
             path="/dumontkids"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <DumontKids />
               </Layout>
             }
@@ -62,7 +62,7 @@ function App() {
           <Route
             path="/aulasemgrupo"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <AulasGrupo />
               </Layout>
             }
@@ -70,7 +70,7 @@ function App() {
           <Route
             path="/aulasindividuais"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <AulasIndividuais />
               </Layout>
             }
@@ -78,7 +78,7 @@ function App() {
           <Route
             path="/beachtenis"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <BeachTenis />
               </Layout>
             }
@@ -86,7 +86,7 @@ function App() {
           <Route
             path="/treinamento"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <TreinamentoCompetitivo />
               </Layout>
             }
@@ -94,7 +94,7 @@ function App() {
           <Route
             path="/unidades"
             element={
-              <Layout>
+              <Layout horario={true}>
                 <Unidades />
               </Layout>
             }
@@ -102,7 +102,7 @@ function App() {
           <Route
             path="/unidade/assefaz"
             element={
-              <Layout>
+              <Layout horario={false}>
                 <Assefaz />
               </Layout>
             }
@@ -110,7 +110,7 @@ function App() {
           <Route
             path="/unidade/smu"
             element={
-              <Layout>
+              <Layout horario={false}>
                 <ClubeDoExercito />
               </Layout>
             }
@@ -118,7 +118,7 @@ function App() {
           <Route
             path="/unidade/lagosul"
             element={
-              <Layout>
+              <Layout horario={false}>
                 <LagoSul />
               </Layout>
             }
@@ -126,7 +126,7 @@ function App() {
           <Route
             path="/unidade/iate"
             element={
-              <Layout>
+              <Layout horario={false}>
                 <Iate />
               </Layout>
             }

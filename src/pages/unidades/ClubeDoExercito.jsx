@@ -70,6 +70,14 @@ const InfosContainer = styled.div`
     padding: 32px 300px;
   }
 `;
+const HorariosContainer = styled.div`
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: -4px;
+`;
 const ClubeDoExercito = () => {
   const fotos = [
     "/smu/estrutura/estrutura_smu4.jpeg",
@@ -95,7 +103,7 @@ const ClubeDoExercito = () => {
           A unidade do Setor Militar Urbano-SMU está localizada entre o sudoeste
           e nordeste, nossa unidade do Clube do Exército-SMU atendemos todas as
           idades, sócios e não sócios, com opções de aulas em grupo, individuais
-          e programa Dumont Kids para crianças a partir de 5 anos. 
+          e programa Dumont Kids para crianças a partir de 5 anos.
           <br />
           Marque sua avaliação hoje mesmo!
         </p>
@@ -145,9 +153,24 @@ const ClubeDoExercito = () => {
           <br />
           Telefone: (61) 98465 0881
           <br />
-          Horário de Funcionamento: de segunda a sexta de 07h às 21h – sábado
-          08h à 12h Horário de Atendimento: de segunda a sexta de 07h às 21h –
-          sábado 08h à 12h
+          <br />
+          <div>
+            <HorariosContainer>
+              <h4>Horário de Funcionamento</h4>
+              <p>Segunda à sexta</p>
+              <h4>7h às 21h</h4>
+            </HorariosContainer>
+            <HorariosContainer>
+              <p>Sábados</p>
+              <h4>8h às 12h</h4>
+            </HorariosContainer>
+            <br />
+            <HorariosContainer>
+              <h4>Horário de Atendimento</h4>
+              <p>Segunda à sexta</p>
+              <h4>8h às 18h</h4>
+            </HorariosContainer>
+          </div>
           <br />
         </p>
       </InformacoesContainer>

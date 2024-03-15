@@ -69,6 +69,14 @@ const InfosContainer = styled.div`
     padding: 32px 392px;
   }
 `;
+const HorariosContainer = styled.div`
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: -4px;
+`;
 const LagoSul = () => {
   const fotos = [
     "/lagosul/estrutura/estrutura_lago2.jpeg",
@@ -136,9 +144,24 @@ const LagoSul = () => {
           <br />
           Telefone: (61) 99138 6671 | (61) 3366-3338 | (61) 99258-3009
           <br />
-          Horário de Funcionamento: de segunda a sexta de 07h às 21h - sábado
-          08h às 12h Horário de Atendimento: de segunda a sexta de 07h às 21h -
-          sábado 08h às 12h
+          <br />
+          <div>
+            <HorariosContainer>
+              <h4>Horário de Funcionamento</h4>
+              <p>Segunda à sexta</p>
+              <h4>7h às 21h</h4>
+            </HorariosContainer>
+            <HorariosContainer>
+              <p>Sábados</p>
+              <h4>8h às 12h</h4>
+            </HorariosContainer>
+            <br />
+            <HorariosContainer>
+              <h4>Horário de Atendimento</h4>
+              <p>Segunda à sexta</p>
+              <h4>8h às 18h</h4>
+            </HorariosContainer>
+          </div>
           <br />
         </p>
       </InformacoesContainer>

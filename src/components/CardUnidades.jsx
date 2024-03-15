@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CardContainer = styled.div`
   width: 630px;
-  height: 500px;
+  height: 530px;
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -1,12 +1,20 @@
 import styled from "styled-components";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import CardHomeUnidades from "../components/CardHomeUnidades";
 import CardHomeModalidade from "../components/CardHomeModalidade";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import {
+  BackgroundModal,
+  BodyModal,
+  HeaderModal,
+  Icon,
+  ModalContainer,
+  WhatsappButton,
+} from "../components/WhatsappFlutuante";
 
 const HomeContainer = styled.div`
   background-color: black;
@@ -69,9 +77,13 @@ const CarrosselContainer = styled.div`
   }
 `;
 
-const Title = styled.h1`
+const Title = styled.button`
   font-size: 22px;
   color: #ffcc2b;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
   @media screen and (min-width: 768px) {
     font-size: 30px;
   }
@@ -142,12 +154,44 @@ const ImageContainer = styled.div`
 
 const Home = () => {
   const videoRef = useRef(null);
-
+  const [modal, setModal] = useState(false);
   useEffect(() => {
     const playPromise = videoRef.current.play();
   }, []);
   return (
     <HomeContainer>
+      {modal && (
+        <BackgroundModal>
+          <ModalContainer>
+            <HeaderModal>
+              <h3>Aperte na unidade de interesse.</h3>
+              <X
+                size={32}
+                onClick={() => setModal(!modal)}
+                style={{ cursor: "pointer" }}
+              />
+            </HeaderModal>
+            <BodyModal>
+              <WhatsappButton href="https://wa.me/5561981270990">
+                <h3>Unidade Iate</h3>
+                <Icon src="/icons/whatsapp_white.svg" alt="" />
+              </WhatsappButton>
+              <WhatsappButton href="https://wa.me/5561984650881">
+                <h3>Unidade SMU</h3>
+                <Icon src="/icons/whatsapp_white.svg" alt="" />
+              </WhatsappButton>
+              <WhatsappButton href="https://wa.me/5561992583009">
+                <h3>Unidade Lago Sul</h3>
+                <Icon src="/icons/whatsapp_white.svg" alt="" />
+              </WhatsappButton>
+              <WhatsappButton href="https://wa.me/5561992582411">
+                <h3>Unidade Assefaz</h3>
+                <Icon src="/icons/whatsapp_white.svg" alt="" />
+              </WhatsappButton>
+            </BodyModal>
+          </ModalContainer>
+        </BackgroundModal>
+      )}
       <VideoContainer>
         <Video
           src="VideoHome.mp4"
@@ -159,7 +203,7 @@ const Home = () => {
         />
       </VideoContainer>
       <SeccaoContainer>
-        <Title>MARQUE SUA AVALIAÇÃO</Title>
+        <Title onClick={()=>setModal(!modal)}>MARQUE SUA AVALIAÇÃO</Title>
         <SubTitle>em uma de nossas unidades em Brasília</SubTitle>
         <CarrosselContainer>
           <Swiper

@@ -34,13 +34,13 @@ const BotaoContainer = styled.button`
     background-color: #32b863;
   }
 `;
-const Icon = styled.img`
+export const Icon = styled.img`
   width: 32px;
   height: 32px;
   color: white;
 `;
 
-const BackgroundModal = styled.div`
+export const BackgroundModal = styled.div`
   width: 100vw;
   min-height: 100vh;
   height: 100%;
@@ -54,7 +54,7 @@ const BackgroundModal = styled.div`
   justify-content: center;
 `;
 
-const ModalContainer = styled.div`
+export const ModalContainer = styled.div`
   width: 90vw;
   border-radius: 20px;
   padding: 16px;
@@ -64,7 +64,7 @@ const ModalContainer = styled.div`
   }
 `;
 
-const HeaderModal = styled.div`
+export const HeaderModal = styled.div`
   width: 100%;
   height: 30px;
   display: flex;
@@ -72,7 +72,7 @@ const HeaderModal = styled.div`
   align-items: center;
   margin-bottom: 16px;
 `;
-const BodyModal = styled.div`
+export const BodyModal = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
@@ -81,7 +81,7 @@ const BodyModal = styled.div`
   justify-content: center;
   gap: 16px;
 `;
-const WhatsappButton = styled.a`
+export const WhatsappButton = styled.a`
   width: 100%;
   height: 30px;
   background-color: #25d366;

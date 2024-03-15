@@ -11,14 +11,14 @@ const WrapperContainer = styled.div`
 `;
 
 // eslint-disable-next-line react/prop-types
-const Layout = ({ children }) => {
+const Layout = ({ children, horario }) => {
   return (
     <div>
       <NavBar />
       <WhatsappFlutuante />
       <WrapperContainer>{children}</WrapperContainer>
       <FormularioFaleConosco />
-      <Footer />
+      <Footer horario={horario} />
     </div>
   );
 };

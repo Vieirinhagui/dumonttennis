@@ -20,7 +20,7 @@ const Unidades = () => {
       <CardUnidades
         label="IATE CLUBE DE BRASÍLIA"
         contato="(61) 98127-0990"
-        image="/iate/estrutura/estrutura_iate9.jpeg"
+        image="/iate/estrutura/estrutura_iate11.jpeg"
         treinamento={true}
         beach={false}
         individual={true}
