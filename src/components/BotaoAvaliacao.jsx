@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import {
+  BackgroundModal,
+  BodyModal,
+  HeaderModal,
+  Icon,
+  ModalContainer,
+  WhatsappButton,
+} from "./WhatsappFlutuante";
+import { X } from "lucide-react";
 
 const BotaoContainer = styled.div`
   width: 100vw;
@@ -29,7 +38,7 @@ const Botao = styled.button`
     background-color: #ffcb22;
     border: 2px solid black;
     color: black;
-    transition: .7s;
+    transition: 0.7s;
   }
 `;
 
@@ -42,9 +51,55 @@ const TextoMaior = styled.span`
   font-weight: bold;
 `;
 
-const BotaoAvaliacao = () => {
+const BotaoAvaliacao = ({
+  iate = true,
+  smu = true,
+  assefaz = true,
+  lagosul = true,
+}) => {
+  const [open, setOpen] = useState(false);
   return (
-    <BotaoContainer>
+    <BotaoContainer onClick={() => setOpen(!open)}>
+      {open && (
+        <BackgroundModal>
+          <ModalContainer>
+            <HeaderModal>
+              <h3>Aperte na unidade de interesse.</h3>
+              <X
+                size={32}
+                onClick={() => setOpen(!open)}
+                style={{ cursor: "pointer" }}
+              />
+            </HeaderModal>
+            <BodyModal>
+              {iate && (
+                <WhatsappButton href="https://wa.me/5561981270990">
+                  <h3>Unidade Iate</h3>
+                  <Icon src="/icons/whatsapp_white.svg" alt="" />
+                </WhatsappButton>
+              )}
+              {smu && (
+                <WhatsappButton href="https://wa.me/5561984650881">
+                  <h3>Unidade SMU</h3>
+                  <Icon src="/icons/whatsapp_white.svg" alt="" />
+                </WhatsappButton>
+              )}
+              {lagosul && (
+                <WhatsappButton href="https://wa.me/5561992583009">
+                  <h3>Unidade Lago Sul</h3>
+                  <Icon src="/icons/whatsapp_white.svg" alt="" />
+                </WhatsappButton>
+              )}
+              {assefaz && (
+                <WhatsappButton href="https://wa.me/5561992582411">
+                  <h3>Unidade Assefaz</h3>
+                  <Icon src="/icons/whatsapp_white.svg" alt="" />
+                </WhatsappButton>
+              )}
+            </BodyModal>
+          </ModalContainer>
+        </BackgroundModal>
+      )}
       <Botao>
         <TextoMenor>Clique para</TextoMenor>
         <br />

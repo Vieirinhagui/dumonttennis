@@ -83,6 +83,7 @@ const Title = styled.button`
   background-color: transparent;
   border: none;
   outline: none;
+  font-weight: bold;
   cursor: pointer;
   @media screen and (min-width: 768px) {
     font-size: 30px;
@@ -203,7 +204,7 @@ const Home = () => {
         />
       </VideoContainer>
       <SeccaoContainer>
-        <Title onClick={()=>setModal(!modal)}>MARQUE SUA AVALIAÇÃO</Title>
+        <Title onClick={() => setModal(!modal)}>MARQUE SUA AVALIAÇÃO</Title>
         <SubTitle>em uma de nossas unidades em Brasília</SubTitle>
         <CarrosselContainer>
           <Swiper

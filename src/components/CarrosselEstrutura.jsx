@@ -88,7 +88,6 @@ const ImageContainer = styled.div`
 `;
 // eslint-disable-next-line react/prop-types
 const CarrosselEstrutura = ({ fotos }) => {
-  console.log(window.innerWidth);
   return (
     <>
       {window.innerWidth > 768 ? (
@@ -115,21 +114,16 @@ const CarrosselEstrutura = ({ fotos }) => {
             modules={[EffectCoverflow, Pagination, Navigation]}
             className="swiper_container"
           >
-            {fotos.map(
-              (foto, i) => (
-                console.log(foto),
-                (
-                  <SwiperSlide key={i}>
-                    <Image
-                      src={foto}
-                      width="400px"
-                      height="250px"
-                      alt="slide_image"
-                    />
-                  </SwiperSlide>
-                )
-              )
-            )}
+            {fotos.map((foto, i) => (
+              <SwiperSlide key={i}>
+                <Image
+                  src={foto}
+                  width="400px"
+                  height="250px"
+                  alt="slide_image"
+                />
+              </SwiperSlide>
+            ))}
             <div className="slider-controler">
               <div className="swiper-button-prev slider-arrow">
                 <ChevronLeft color="black" width={50} />
@@ -154,26 +148,18 @@ const CarrosselEstrutura = ({ fotos }) => {
             autoplay={{ delay: 5000 }}
             className="swiper-container"
           >
-            {fotos.map(
-              (foto, i) => (
-                console.log(foto),
-                (
-                  <SwiperSlide
-                    key={i}
-                    style={{ width: "300px", marginRight: "0" }}
-                  >
-                    <ImageContainer>
-                      <Image
-                        src={foto}
-                        width="300px"
-                        height="250px"
-                        alt="slide_image"
-                      />
-                    </ImageContainer>
-                  </SwiperSlide>
-                )
-              )
-            )}
+            {fotos.map((foto, i) => (
+              <SwiperSlide key={i} style={{ width: "300px", marginRight: "0" }}>
+                <ImageContainer>
+                  <Image
+                    src={foto}
+                    width="300px"
+                    height="250px"
+                    alt="slide_image"
+                  />
+                </ImageContainer>
+              </SwiperSlide>
+            ))}
 
             <div className="swiper-button-prev">
               <ChevronLeft color="white" size={30} />

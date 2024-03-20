@@ -9,7 +9,7 @@ const OptionMenu = styled(NavLink)`
   cursor: pointer;
   width: 100%;
   text-align: start;
-  padding-left: 40%;
+  padding-left: 35%;
   cursor: pointer;
   text-decoration: none;
   color: black;

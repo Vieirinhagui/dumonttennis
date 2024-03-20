@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import CarrosselEstrutura from "../../components/CarrosselEstrutura";
+import BotaoAvaliacao from "../../components/BotaoAvaliacao";
+
 import {
   Car,
   ShowerHead,
@@ -7,6 +9,7 @@ import {
   UtensilsCrossedIcon,
   Wifi,
 } from "lucide-react";
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -113,6 +116,7 @@ const Assefaz = () => {
           Marque sua avaliação hoje mesmo!
         </p>
       </InfosContainer>
+      <BotaoAvaliacao assefaz={true} iate={false} lagosul={false} smu={false} />
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>

@@ -8,7 +8,7 @@ const ModalidadeContainer = styled.div`
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  gap: 32px;
+  gap: 16px;
 `;
 export const Title = styled.h1`
   font-size: 24px;
@@ -22,7 +22,6 @@ export const InfosContainer = styled.div`
   align-items: start;
   justify-content: center;
   padding: 0 32px;
-  gap: 8px;
   @media screen and (min-width: 768px) {
     padding: 0 512px;
   }
@@ -39,7 +38,22 @@ export const ImageContainer = styled.div`
   }
 `;
 
-const ModalidadesLayout = ({ children, title, pathCapa }) => {
+export const Container = styled.div`
+  padding: 0 32px;
+  @media screen and (min-width: 768px) {
+    padding: 0 512px;
+  }
+`;
+
+const ModalidadesLayout = ({
+  children,
+  title,
+  pathCapa,
+  iate,
+  smu,
+  assefaz,
+  lagosul,
+}) => {
   return (
     <ModalidadeContainer>
       {pathCapa && (
@@ -52,8 +66,14 @@ const ModalidadesLayout = ({ children, title, pathCapa }) => {
       <InfosContainer>
         <Title>{title}</Title>
       </InfosContainer>
+
       {children}
-      {/* <BotaoAvaliacao /> */}
+      <BotaoAvaliacao
+        iate={iate}
+        smu={smu}
+        assefaz={assefaz}
+        lagosul={lagosul}
+      />
     </ModalidadeContainer>
   );
 };

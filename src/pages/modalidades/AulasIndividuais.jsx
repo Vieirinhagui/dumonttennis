@@ -9,6 +9,10 @@ const AulasIndividuais = () => {
     <ModalidadesLayout
       title="AULAS INDIVIDUAIS"
       pathCapa="/modalidades/individual/individual1.jpeg"
+      assefaz={true}
+      iate={true}
+      lagosul={false}
+      smu={true}
     >
       <InfosContainer>
         {/* <Title>AULAS INDIVIDUAIS</Title> */}

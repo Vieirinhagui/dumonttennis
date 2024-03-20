@@ -9,6 +9,10 @@ const BeachTenis = () => {
     <ModalidadesLayout
       // title="BEACH TENNIS"
       // pathCapa="/modalidades/dumontkids/dumontkids2.jpeg"
+      assefaz={true}
+      iate={false}
+      lagosul={true}
+      smu={false}
     >
       <InfosContainer>
         <Title>BEACH TENNIS</Title>

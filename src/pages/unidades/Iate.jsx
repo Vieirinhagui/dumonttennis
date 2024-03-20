@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import CarrosselEstrutura from "../../components/CarrosselEstrutura";
 import { Car, ShowerHead, UtensilsCrossed, Wifi } from "lucide-react";
+import BotaoAvaliacao from "../../components/BotaoAvaliacao";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -102,6 +103,8 @@ const Iate = () => {
           Marque sua avaliação hoje mesmo!
         </p>
       </InfosContainer>
+      <BotaoAvaliacao assefaz={false} iate={true} lagosul={false} smu={false} />
+
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>
@@ -151,10 +154,6 @@ const Iate = () => {
               <h4>Horário de Funcionamento</h4>
               <p>Segunda à sexta</p>
               <h4>7h às 21h</h4>
-            </HorariosContainer>
-            <HorariosContainer>
-              <p>Sábados</p>
-              <h4>8h às 12h</h4>
             </HorariosContainer>
             <br />
             <HorariosContainer>

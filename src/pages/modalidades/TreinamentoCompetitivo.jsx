@@ -6,7 +6,7 @@ import ModalidadesLayout, {
 
 const TreinamentoCompetitivo = () => {
   return (
-    <ModalidadesLayout>
+    <ModalidadesLayout assefaz={false} iate={true} lagosul={false} smu={false}>
       <InfosContainer>
         <Title>EQUIPE</Title>
         <p>

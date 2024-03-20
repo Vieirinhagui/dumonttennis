@@ -1,6 +1,7 @@
 import ModalidadesLayout, {
   InfosContainer,
   ImageContainer,
+  Container,
 } from "./ModalidadesLayout.jsx";
 
 const DumontKids = () => {
@@ -8,8 +9,12 @@ const DumontKids = () => {
     <ModalidadesLayout
       title="DUMONT KIDS"
       pathCapa="/modalidades/dumontkids/dumontkids2.jpeg"
+      assefaz={true}
+      iate={true}
+      lagosul={true}
+      smu={true}
     >
-      <InfosContainer>
+      <Container>
         <p>
           A Dumont Kids oferece uma abordagem única para introduzir as crianças
           no mundo do tênis, com uma metodologia própria e utilização de
@@ -20,7 +25,7 @@ const DumontKids = () => {
           fundamentos do esporte, ao mesmo tempo em que desenvolvem habilidades
           essenciais como coordenação motora, concentração e trabalho em equipe.
         </p>
-      </InfosContainer>
+      </Container>
       <ImageContainer
         style={{
           backgroundImage: `url("/modalidades/dumontkids/dumontkids7.jpeg")`,
